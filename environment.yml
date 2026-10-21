@@ -1,0 +1,17 @@
+name: levermann
+channels:
+  - conda-forge
+dependencies:
+  - python=3.11
+  - pip
+  - jupyterlab
+  - notebook
+  - ipykernel
+  - pandas
+  - numpy
+  - matplotlib
+  - openpyxl
+  - requests
+  - pip:
+      - yahooquery
+      - yfinance
